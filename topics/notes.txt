@@ -1,0 +1,14 @@
+formatingatgs.html
+
+<b>---->  bold tag
+<u></u>  ----> under line tag
+<i><i> ---> italics tag
+<mark></mark> ------> mark tag ---> colors the text to yellow color in default
+<br>---------> breaks line
+<del></del> ---> cuts the text
+<center></center> ---------->depriciated , red color is the color of tag due to this , 
+<sup></sup>---> super tag
+<sub></sub>------>subscript tag
+//interview qs --->diff between sup and syb tag
+
+<marquee></marquee>----> text floats from left to right
