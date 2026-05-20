@@ -20,7 +20,7 @@ formatingatgs.html
 html5 introduced with semantic in 2014 
 used to understand the value of the tag
 
-<strong></strong>->called semantic tags , used for search engine optimization(advantage over bold<b> tag)
+<strong></strong>->called semantic tags , used for search engine optimization(advantage over bold<b> tag)>
 
 ##tables.html
 difference between cellspacing and cell pading
@@ -34,3 +34,14 @@ table attribute ->
 <table border="1" width="100" height="100">
 
 th tag automatically centers the data and bolds the data 
+row span and col span
+rowspan important
+
+//semantic tags of table below
+<table>
+<thead></thead>
+<tbody>
+<tfoot>
+</table>
+
+TASK->
