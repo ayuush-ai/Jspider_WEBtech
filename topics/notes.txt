@@ -45,3 +45,39 @@ rowspan important
 </table>
 
 TASK->
+
+//22/05/26
+
+##image.html
+<img src="" alt="">
+//when we cant load the image like link is there or src is there but internet is not there , then alt comes to play , where it shows the description of image
+
+
+##audio.html
+<audio src="" controls loop autoplay muted></audio>
+
+->here controls hive that pause sound button like that give contollers , give controlls
+->loop song again runs after ending
+->autoplay, the song is running automatically untill not stopped using contollers
+-> muted , the controller have a sound button which is muted 
+-> webstech sir's audio file link->beautiful-sundari.netlify.app
+
+
+##video.html
+-> <video src="./react_1.mp4" controls loop autoplay muted></video>
+
+##anchor.html
+<a href="">clikc here to go google<a>
+->set a hyper link to reach a destination 
+
+->when we need to add tab after clicking a link
+
+task->
+
+//23/5/26
+
+  ->  <a href="https://www.google.com"><img src="./batman-suicide-3840x2160-9706.jpg" alt="" width=300px></a>
+   ->this tag is used to make img as a link 
+  ->  <a href="batman-suicide-3840x2160-9706.jpg" download="heaven">click to download</a>
+    ->this tag is used to "DOWNLOAD" any stuff , here the image src is givcen and when we download it rename the image with "heaven" 
+-> 
