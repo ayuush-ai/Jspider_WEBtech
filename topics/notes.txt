@@ -80,4 +80,32 @@ task->
    ->this tag is used to make img as a link 
   ->  <a href="batman-suicide-3840x2160-9706.jpg" download="heaven">click to download</a>
     ->this tag is used to "DOWNLOAD" any stuff , here the image src is givcen and when we download it rename the image with "heaven" 
--> 
+##How to add youtube videos
+->NOTE: you cant run every youtube videos , just educational videos can be added and played only 
+<iframe></iframe>->used to make a subwindow, can run any other application
+
+##iframe.html
+->in iframe , if any link is there , it will open in the same subwindow
+target=_self(by deafault it is self) , _parent(opens in the same main page or parent window) , _blanck(open the page into new page)
+->in sub sub frames
+->parent window -> sub 1 -> sub2 ->sub3
+->operations->if in sub3 , target="_parent" -> it will open in sub2 , similarly for sub2 it will open in sub1 
+            -> if in sub3 or sub2 or any sub frame , if i used target=_top" then for all sub , it will open only in main page
+
+->recap -> _blank(new tab) and _self(same tab) can be used without iframe but to use _parent or_top you need nested window or subfeames or <iframe>            
+
+##forms.html
+action="" ->server page adress ->why? ->inside server we will validate in backend
+4 methods of http for front end devs -> get,post,put,delete
+
+<form action="server page address" method="get"></form>
+->meaning here using GET , we will request from server
+<form action="server page address" method="post"></form>
+->means w are sending data to the server using POST 
+
+<label> is used to write something regarding related to input box at left side of input box
+<input> generates the input box
+<input type=""> -> type specifies the form of data we can use
+type="number"-> for this we can use number and e for exponentiantion
+
+<button>->[no action is given]default bhevaior nature , it will reload if the method is GET , if POST then it will show "the site cant be reached"
