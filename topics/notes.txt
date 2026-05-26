@@ -110,6 +110,8 @@ type="number"-> for this we can use number and e for exponentiantion
 
 <button>->[no action is given]default bhevaior nature , it will reload if the method is GET , if POST then it will show "the site cant be reached"
 
+//26/05/26
+TOPICS COVERED
 
                                     ________html____________
                                     |                        |
@@ -137,5 +139,111 @@ type="number"-> for this we can use number and e for exponentiantion
 
     _____________________________________________Attributes___________________________________________________________
     |                                           |                                                     |
-      Global attribute                           Element speicific attributes                 Boolean attribute
+   Global attribute                           Element speicific attributes                 Boolean attribute
       (attribute can be given to any tag)       (like href cant be used anywhere)
+
+
+heading tags->h1 - h6
+paragraph-> p/pre
+formatting tags - u,b,i,sub,sup,mark,center,del,marquee,Strong,em
+
+
+        ---------------->ol-li
+        |
+        |
+list--------------------->ul-li
+        |
+        |
+        ----------------->dl-dt &dd
+
+
+table-------
+            |
+            ---->  tr
+                    |
+                    |
+                    ----->td/th
+                      rowspan/colspan
+
+img/audio/video/a/iframe
+
+forms
+  |
+  |---->label input
+
+
+
+//forms.html
+<input type="date">
+
+<input type="radio">->radio buttons 
+issues regarding this->you cant diselect and every button can be used 
+
+//to solve this problem we need to add name and imp: name of three radio buttons should be same
+
+
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">FEmale
+<input type="radio" name="gender">others
+
+
+//now you can do this seemlessly though you cant diselect but not every button is kept choosen , once button is choosed , before choosen option disppears
+
+
+<input type="password">
+//hre you can see , password type helps to hide the password typed
+
+//check box
+<input type="checkbox">java
+<input type="checkbox">javascript
+<input type="checkbox">django
+
+
+radio                           vs                checkbox
+helps to select only one box          helps to select and diselect mutiple values
+
+//for drop down use select tag 
+<select>
+                <option value="">select the degree</option>
+                <option value="">BTECH</option>
+                <option value="">MCA</option>
+                <option value="">BSC</option>
+                <option value="">BCA</option>
+            </select>
+
+<input type="search">
+//if type=search then a cross symbol is there to delet your whole password
+
+
+//implementing search 
+ <label>search:
+            <input type="search" list="suggestion">
+        </label>
+
+
+        <datalist id="suggestion">
+            <option value="BTECH">BTECH</option>
+                <option value="MCA">MCA</option>
+                <option value="BSC">BSC</option>
+                <option value="BCA">BCA</option>
+        </datalist>
+//here list==id and imp: the value should be filled nor it will not show the suggestion
+
+<label for="">adress:      
+        </label>
+        <textarea row="10" cols="50"></textarea>
+
+//in this code there is a big box coming where you using enter 
+
+
+<label for="">upload your cv:</label>
+        <input type="file">
+        <button>Submit</button>
+
+//here you can take input the file
+
+
+        <label for="">Select color
+            <input type="color">
+        </label>
+//used to select the color as input
