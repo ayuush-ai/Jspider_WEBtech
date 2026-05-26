@@ -109,3 +109,33 @@ action="" ->server page adress ->why? ->inside server we will validate in backen
 type="number"-> for this we can use number and e for exponentiantion
 
 <button>->[no action is given]default bhevaior nature , it will reload if the method is GET , if POST then it will show "the site cant be reached"
+
+
+                                    ________html____________
+                                    |                        |
+                          _________Tag______            Element-void Element
+                          |                 |
+                          paired          unpaired/self closing
+
+
+
+                          web page
+                          |
+                          |              
+                          website--------1.static website
+                          |              2.dynamic website
+                          |
+                          WEB APPLICATION----------1.SPA
+                                                  2.MPA
+
+
+      html-root Element
+      head-browser
+      body-user
+      meta title
+      <!DOCTYPE
+
+    _____________________________________________Attributes___________________________________________________________
+    |                                           |                                                     |
+      Global attribute                           Element speicific attributes                 Boolean attribute
+      (attribute can be given to any tag)       (like href cant be used anywhere)
