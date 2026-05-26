@@ -247,3 +247,12 @@ helps to select only one box          helps to select and diselect mutiple value
             <input type="color">
         </label>
 //used to select the color as input
+
+
+<lebel for="">month:
+            <input type="month">
+        week<input type="week">
+        datetime local<input type="datetime-local">
+        </lebel>
+
+---->shows the inout ype of taking in months week and time 
